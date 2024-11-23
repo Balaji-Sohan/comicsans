@@ -12,7 +12,7 @@ fetch('images.json')
   .then(imageFilenames => {
     // Display the images
     const cartoonContainer = document.getElementById('cartoon-container');
-    const dailyImages = getRandomImages(imageFilenames, 2);
+    const dailyImages = getRandomImages(imageFilenames, 1);
 
     dailyImages.forEach((filename) => {
       const img = document.createElement('img');
