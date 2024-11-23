@@ -17,7 +17,7 @@ fetch('images.json')
     dailyImages.forEach((filename) => {
       const img = document.createElement('img');
       const encodedFilename = encodeURIComponent(filename);
-      img.src = 'Images/' + encodedFilename;
+      img.src = 'images/' + encodedFilename;
       img.className = 'cartoon';
       cartoonContainer.appendChild(img);
     });
