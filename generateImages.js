@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Path to the 'images' directory
-const imagesDir = path.join(__dirname, 'images'); // Changed from 'Pictures' to 'images'
+const imagesDir = path.join(__dirname, 'Images'); // Changed from 'Pictures' to 'images'
 
 // Read all files in the 'images' directory
 fs.readdir(imagesDir, (err, files) => {
